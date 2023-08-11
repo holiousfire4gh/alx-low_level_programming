@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <unistd.h>
 /**
- * main - A c program that print a line to standard error
- * Return 1 (success)
+ * main - Entry point
+ * Return: Always 1 (success)
  */
 int main(void)
 {
