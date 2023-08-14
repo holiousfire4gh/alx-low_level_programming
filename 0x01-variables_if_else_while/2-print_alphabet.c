@@ -1,19 +1,17 @@
 #include <stdio.h>
 
-/**
-*main - Print the alphabet
-*
-*Return: Always 0 (Success)
-*/
-int main(void)
+int main()
 {
-	char alp[26] = "abcdefghijklmnopqrstuvwxyz";
-	int i;
+    char ch = 'a';
 
-	for (i = 0; i < 26; i++)
-	{
-		 putchar(alp[i]);
-	}
-	putchar('\n');
-return (0);
+    if (ch >= 'a' && ch <= 'z')
+    {
+        printf("Lowercase alphabet.\n");
+    }
+    else
+    {
+        printf("Not a lowercase alphabet.\n");
+    }
+
+    return 0;
 }
