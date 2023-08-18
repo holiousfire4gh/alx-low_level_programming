@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
-*print_most - prints 01356789
+*print_most_numbers - prints 01356789
 *Description: This function prints all digits except 2 and 4
 *Return: void
 */
